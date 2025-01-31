@@ -58,3 +58,16 @@ button{
     box-shadow: -5px -5px 12px #ffffff,
                  5px  5px 12px rgba(0,0,0,.1.6);
 }
+@media(max-width: 480px) {
+  .calculator {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  input {
+    font-size: 30px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
